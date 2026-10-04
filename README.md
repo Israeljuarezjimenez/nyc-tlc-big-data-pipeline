@@ -1,6 +1,15 @@
 # bigdata-pipeline-nyc-tlc
 
-Pipeline de Big Data para NYC TLC (yellow taxi) con ingesta, procesamiento distribuido, modelo predictivo y dashboard.
+
+Pipeline de Big Data para el procesamiento y análisis de datos de viajes de NYC Yellow Taxi.
+
+Implementa almacenamiento distribuido con HDFS y procesamiento de grandes volúmenes de datos mediante Apache Spark.
+
+Incluye procesos ETL para limpieza, transformación, análisis exploratorio y generación de métricas.
+
+Incorpora un modelo de Machine Learning con Spark MLlib para predecir la duración de los viajes.
+
+Los resultados, indicadores y predicciones se presentan mediante un dashboard interactivo desarrollado con Streamlit.
 
 ## Arquitectura (texto)
 - Contenedores Docker: HDFS (namenode + datanode) y Spark (master + worker).
